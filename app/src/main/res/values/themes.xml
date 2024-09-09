@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DailyGoalsTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Purple_500</item>
+        <item name="colorSecondary">@color/levender</item>
+
+    </style>
+
+    <style name="Theme.DailyGoalsTracker" parent="Base.Theme.DailyGoalsTracker" />
+</resources>

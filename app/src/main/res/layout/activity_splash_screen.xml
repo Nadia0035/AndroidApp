@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notess"
+    android:orientation="vertical"
+
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Goals Tracker"
+        android:textSize="24sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/baseline_note_alt_24"
+        android:padding="10dp"
+        android:drawablePadding="10px"
+
+
+/>
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:indeterminateTint="@color/Black"
+
+        />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="415dp"
+        android:layout_gravity="center"
+        android:src="@drawable/doyourbestt"
+        android:rotation="@integer/material_motion_duration_long_2"
+
+
+
+        />
+
+
+</LinearLayout>
